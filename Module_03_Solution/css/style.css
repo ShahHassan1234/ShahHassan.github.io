@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    height: 2000px;
+}
+
+.navbar{
+    background: rgba(0, 0, 0, 0.247);
+    margin: 0;
+    border: 1px solid black;
+}
+
+.navbar-nav li{
+    border-bottom: 1px solid black;
+}
+
+.nav-link{
+    margin-bottom: 2px;
+}
+
+.row{
+    background: rgba(0, 0, 0, 0.247);
+}
+
+
+@media (max-width: 578px) {
+    .navbar{
+        padding: 5px 20px;
+    }
+    .row{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
